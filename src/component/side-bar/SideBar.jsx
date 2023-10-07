@@ -1,5 +1,5 @@
 import { Button } from "@mantine/core";
-import "../../home/homepage.css";
+import "../../pages/home/homepage.css";
 
 const Sidebar = () => {
   return (

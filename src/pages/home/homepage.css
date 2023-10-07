@@ -67,7 +67,7 @@ h1 {
   align-items: center;
 }
 
-.profile imgg {
+.profile img {
   width: 56px;
   height: 56px;
   border-radius: 50px;
@@ -80,9 +80,15 @@ h1 {
   height: 44px;
 }
 
-.label {
+.label-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label h1 {
   color: var(--black-01, #010101);
-  font: var(--paragraph-medium-p-12-lh-130, 600 16px/130% "Outfit", sans-serif);
+  font: var(--paragraph-medium-p-12-lh-130, 600 24px/130% "Outfit", sans-serif);
 }
 
 .navigation-sidebar {
@@ -124,4 +130,39 @@ h1 {
   color: var(--white-01, #ffffff);
   font: var(--paragraph-medium-p-14-lh-130, 500 14px/130% "Outfit", sans-serif);
   opacity: 0.6000000238418579;
+}
+
+.layer-one {
+  display: flex;
+  gap: 50px;
+  width: auto;
+  margin-top: 30px;
+}
+
+.user-list {
+  width: 47%;
+  padding-right: 14px;
+}
+
+.lable-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lable-user h1 {
+  color: var(--black-01, #010101);
+  font: var(--headings-h-6, 600 18px/130% "Outfit", sans-serif);
+}
+
+.wrapper-userlist-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.layer-two {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }

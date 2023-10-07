@@ -1,10 +1,10 @@
 import { Button } from "@mantine/core";
 import "./Buttonstyle.css";
 
-const ButtonPrimarry = ({ text }) => {
+const ButtonPrimarry = ({ children }) => {
   return (
     <Button className="Primarry" variant="filled" size="md" radius="md">
-      {text}
+      {children}
     </Button>
   );
 };
