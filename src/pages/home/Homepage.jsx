@@ -6,6 +6,7 @@ import SideBar from "../../component/side-bar/SideBar";
 import TextLink from "../../component/button/TextLink";
 import UserList from "../../component/user-list/UserList";
 import PromoCard from "../../component/card/promo-card/PromoCard";
+import CategoryCard from "../../component/card/category-card/CategoryCard";
 
 const Homepage = () => {
   return (
@@ -55,6 +56,18 @@ const Homepage = () => {
               <PromoCard />
               <PromoCard />
               <PromoCard />
+            </div>
+            <div className="layer-three">
+              <div className="label">
+                <h1>Activity</h1>
+              </div>
+              <div className="wrapper-category">
+                <CategoryCard>Beach</CategoryCard>
+                <CategoryCard>Museum</CategoryCard>
+                <CategoryCard>Komodo Island</CategoryCard>
+                <CategoryCard>Mountain</CategoryCard>
+                <CategoryCard>Central Java</CategoryCard>
+              </div>
             </div>
           </div>
         </div>
